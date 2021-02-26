@@ -1,0 +1,269 @@
+body {
+  background-color: #aaa69d;
+}
+
+header {
+  background-color: #474787;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: solid 2px rgb(46, 55, 61)
+}
+
+.search {
+  width: 840px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 13px;
+}
+
+#card {
+  margin-top: 20px;
+  background-color: #474787;
+  border: solid 2px rgb(46, 55, 61);
+  color: white;
+  line-height: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.menu {
+  width: 200px;
+  height: 600px;
+  background-color: #474787;
+  margin-left: 260px;
+  margin-top: 0px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10%;
+  display: inline-grid;
+}
+.menu p{
+  font-size: 30px;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.mid {
+  background-color: #aaa69d;
+  display: flex;
+  padding-top: 60px;
+}
+
+main {
+  width: 800px;
+  margin: auto;
+  margin-left: 60px;
+}
+
+#collapseExample {
+  position: absolute;
+  z-index: 9999;
+}
+
+.film {
+  background-color: #474787;
+  border-radius: 10px;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.film p {
+  margin-left: 20px;
+}
+
+.advanceds {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 4px;
+}
+.center{
+  background-color: #474787;
+}
+.pagination{
+justify-content: center;
+font-style: none;
+color: white;
+font-size: 16px;
+}
+.connexion{
+  left: 80%;
+  top: 5%;
+  position: absolute;
+}
+.mid-connexion{
+  padding-top: 100px;
+  margin-left: 360px;
+  width: 80%;
+  display: flex;
+  height: 700px;
+}
+.connexion-form{
+  width: 30%;
+  margin-left: -40px;
+}
+.inscription{
+  width: 40%;
+}
+.space{
+  width: 50px;
+}
+.line{
+  width: 1px;
+  height: 550px;
+  border: solid 2px #474787;
+}
+.mainAccount{
+  width: 50%;
+
+  background-color: #474787;
+  border-radius: 10px;
+  margin-left: 50px;
+  color : white;
+  font-size: 20px;
+}
+.mainAccount p{
+  margin-left: 30px;
+}
+.mainAccount h2{
+  margin-top: 30px;
+  padding-bottom: 150px;
+}
+.bottom{
+  width: 100%;
+  height: 180px;
+  background-color: #aaa69d;
+}
+.search-member{
+  position: absolute;
+  top: 1.7%;
+  left: 36%;
+}
+.mainAccountHistoryTitle{
+  width: 50%;
+
+  background-color: #aaa69d;
+  border-radius: 10px;
+  margin-left: 50px;
+  color : white;
+  font-size: 20px;
+  display: inline-grid;
+}
+.mainAccountHistoryTitle h2{
+  margin-top: 30px;
+}
+
+.historySlot{
+  width: 90%;
+
+  margin-bottom: 30px;
+  background-color: #474787;
+  border-radius: 10px;
+  margin-left: 50px;
+  color : white;
+  font-size: 20px;
+}
+.historySlot p{
+  text-align: center;
+  margin-top: 20px;
+}
+.midHistory {
+  height: 100%;
+  background-color: #aaa69d;
+  display: flex;
+  padding-top: 60px;
+}
+.form-historique{
+  text-align: center;
+  margin: 20px;
+}
+.mainAccountAvis{
+  width: 50%;
+
+  background-color:#474787;
+  border-radius: 10px;
+  margin-left: 50px;
+  color : white;
+}
+.mainAccountAvis p{
+  margin-left: 30px;
+}
+.mainAccountAvis img{
+  margin-bottom: 50px;
+}
+.mainAccountAbonnement h3{
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.mainAccountAbonnement{
+  width: 50%;
+  height: 700px;
+  background-color: #474787;
+  border-radius: 10px;
+  margin-left: 50px;
+  color : white;
+  font-size: 20px;
+}
+
+.mid-visiteur{
+  background-color: #aaa69d;
+}
+.mid-visiteur h2{
+  padding: 30px;
+}
+.random-film-slot{
+  background-color: #474787;
+  width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-bottom: 50px;
+}
+.space-random{
+  width: 10%;
+  height: 50px;
+}
+.random-film-slot p,h2{
+  color : white;
+}
+.random-film-slot p{
+  margin-left: 20px;
+}
+.random-film-slot img{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.connexion-core{
+  background-color: #aaa69d;
+  display: block;
+  margin: auto;
+}
+.random-film-slot-member{
+  background-color: #474787;
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-bottom: 50px;
+}
